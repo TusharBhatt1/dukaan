@@ -3,7 +3,7 @@ import Box from "../Box";
 
 export default function Overview() {
   return (
-    <div className='flex flex-col gap-4 px-7'>
+    <div className='flex flex-col gap-4 px-7 mt-4 sm:mt-0'>
         <div className='flex justify-between'>
          <p className='text-lg font-bold'>Overview</p>
          <button className='border-2 border-slate-200 bg-slate-50 px-4'>Last Month</button>
