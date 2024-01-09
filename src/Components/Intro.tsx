@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export default function Loading() {
+export default function Intro() {
 
     const [show , setShow]=useState(true)
     if(show){

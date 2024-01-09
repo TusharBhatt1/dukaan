@@ -8,7 +8,6 @@ function App() {
       <div className="hidden md:block">
         <Sidebar />
       </div>
-
       <Dashboard />
     </div>
   );
