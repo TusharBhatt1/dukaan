@@ -5,15 +5,15 @@ import { MdArrowDropDownCircle } from "react-icons/md";
 import { MdMenu } from "react-icons/md";
 import useSideBarSM from "../../hook/useSideBarSM";
 
-
 export default function Navbar() {
-  
-  const {onOpen}=useSideBarSM()
- 
+  const { onOpen } = useSideBarSM();
+
   return (
     <div className="flex bg-white justify-between w-full items-center p-3 w-full  px-2 sm:px-7 text-sm shadow-md">
       <div className="flex gap-2 sm:gap-4">
-        <span className="block md:hidden" onClick={onOpen}><MdMenu/></span>
+        <span className="block md:hidden" onClick={onOpen}>
+          <MdMenu size={18} />
+        </span>
         <p>Payment</p>
         <div className="flex gap-1 justify-center items-center text-xs">
           <CiCircleQuestion />
@@ -21,7 +21,7 @@ export default function Navbar() {
         </div>
       </div>
       <div className="flex">
-        <span className="block md:absolute mt-2 ml-4 bg-red-100">
+        <span className="block md:absolute mt-2 ml-4">
           <AiOutlineSearch size={18} />
         </span>
 
@@ -33,8 +33,6 @@ export default function Navbar() {
       <div className="flex gap-2">
         <RiMessage2Fill size={20} />
         <MdArrowDropDownCircle size={20} />
-
-        <div></div>
       </div>
     </div>
   );
