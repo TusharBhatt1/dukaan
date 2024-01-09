@@ -15,7 +15,7 @@ export default function Intro() {
             <p>Tushar Bhatt</p>
           </div>
           <p className="text-xs italic">tusharbhatt0135@gmail.com</p>
-          <button onClick={()=>setShow(false)} className="text-black w-1/2 m-auto py-2">Continue</button>
+          <button onClick={()=>setShow(false)} className="text-black bg-white w-1/2 m-auto py-2">Continue</button>
         </div>
       </div>
     </div>
