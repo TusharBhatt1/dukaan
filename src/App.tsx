@@ -1,11 +1,13 @@
 import "./App.css";
 import Dashboard from "./Components/main/Dashboard";
 import Sidebar from "./Components/main/Sidebar";
+import SidebarSm from "./Components/main/SidebarSm";
 
 function App() {
   return (
     <div className="flex">
-      <div className="hidden md:block">
+      <div>
+        <SidebarSm/>
         <Sidebar />
       </div>
       <Dashboard />

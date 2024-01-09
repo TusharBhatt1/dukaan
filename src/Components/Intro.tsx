@@ -10,7 +10,7 @@ export default function Intro() {
         <div className="text-white flex flex-col gap-4 ">
           <div>
             <p className="text-blue-700 font-bold">
-              A React + Typescript project by
+              A Responsive React + Typescript + Zustand project by
             </p>
             <p>Tushar Bhatt</p>
           </div>
