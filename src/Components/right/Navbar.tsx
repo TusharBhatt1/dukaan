@@ -14,13 +14,13 @@ export default function Navbar() {
         </div>
       </div>
       <div className="flex">
-        <span className="absolute mt-2 ml-4 hidden sm:block">
+        <span className="block md:absolute mt-2 ml-4 bg-red-100">
           <AiOutlineSearch size={18} />
         </span>
 
         <input
           placeholder="Search anything"
-          className=" p-1 px-2 sm:px-12 border-slate-200 rounded-xl border-2 "
+          className="hidden md:block p-1 sm:px-12 border-slate-200 rounded-xl border-2 "
         />
       </div>
       <div className="flex gap-2">
