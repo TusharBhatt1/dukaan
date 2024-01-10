@@ -9,7 +9,7 @@ export default function Intro() {
       <div className="h-[100vh] w-[100vw] absolute text-center  bg-neutral-800/90 flex justify-center items-center">
         <div className="text-white flex flex-col gap-4 ">
           <div>
-            <p className="text-blue-600 font-bold">
+            <p className="text-blue-500 font-bold">
               A Responsive React + Typescript + Zustand project by
             </p>
             <p>Tushar Bhatt</p>
