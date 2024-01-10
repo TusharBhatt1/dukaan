@@ -15,7 +15,9 @@ export default function SideBarTop() {
         </div>
       </div>
       <FaChevronDown />
-      <AiOutlineClose onClick={onClose} />
+      <div className="block md:hidden">
+      <AiOutlineClose  onClick={onClose} />
+      </div>
     </div>
   );
 }
