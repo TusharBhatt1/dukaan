@@ -1,4 +1,4 @@
-import logo from "../../../public/final-logo.png";
+import logo from "../../assets/final-logo.png"
 import { FaChevronDown } from "react-icons/fa6";
 import { AiOutlineClose } from "react-icons/ai";
 import useSideBarSM from "../../hook/useSideBarSM";

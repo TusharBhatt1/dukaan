@@ -23,7 +23,7 @@ export default function Transactions() {
         </div>
         <div className="flex flex-col gap-2 p-2">
           {allOrders.map((order) => (
-            <div className="grid grid-cols-4 py-1 hover:bg-slate-100 cursor-pointer">
+            <div key={order.orderId} className="grid grid-cols-4 py-1 hover:bg-slate-100 cursor-pointer">
               <p className="text-blue-500">#{order.orderId}</p>
               <p>{formatDate(order.orderDate)}</p>
               <p>&#8377; {order.orderAmount}</p>
