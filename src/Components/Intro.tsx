@@ -14,7 +14,7 @@ export default function Intro() {
             </p>
             <p>Tushar Bhatt</p>
           </div>
-          <div className="flex flex-col gap-2">
+          <div className="flex flex-col gap-3">
           <p className="text-xs italic">tusharbhatt0135@gmail.com</p>
           <p className="text-xs italic">7617446649</p>
           <button onClick={()=>setShow(false)} className="animate-bounce rounded-xl text-black bg-white w-1/2 m-auto py-2">Continue</button>
