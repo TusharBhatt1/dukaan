@@ -27,7 +27,7 @@ export default function Navbar() {
 
         <input
           placeholder="Search anything"
-          className="hidden md:block p-1 sm:px-12 border-slate-200 rounded-xl border-2 "
+          className="hidden bg-slate-300 md:block p-1 sm:px-12 border-slate-200 rounded-xl border-2 "
         />
       </div>
       <div className="flex gap-2">
