@@ -30,6 +30,19 @@ export const allOrders:OrderProps[] = [
       transactionFees: 480,
     },
     {
+      orderId: "128",
+      orderDate: "2023-05-13",
+      orderAmount: 375,
+      transactionFees: 480,
+    },
+    
+    {
+      orderId: "129",
+      orderDate: "2023-04-21",
+      orderAmount: 99.5,
+      transactionFees: 895,
+    },
+    {
       orderId: "129",
       orderDate: "2023-04-21",
       orderAmount: 99.5,

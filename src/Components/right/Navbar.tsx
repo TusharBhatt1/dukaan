@@ -9,7 +9,7 @@ export default function Navbar() {
   const { onOpen } = useSideBarSM();
 
   return (
-    <div className="flex bg-white justify-between w-full items-center p-3 w-full  px-2 sm:px-7 text-sm shadow-md">
+    <div className="flex bg-white justify-between w-full items-center p-3 px-2 sm:px-7 text-sm shadow-md">
       <div className="flex gap-2 sm:gap-4">
         <span className="block md:hidden" onClick={onOpen}>
           <MdMenu size={18}/>
